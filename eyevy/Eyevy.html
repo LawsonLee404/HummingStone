@@ -1,0 +1,1689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Crimson+Text&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Crimson+Text&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src='https://code.jquery.com/jquery-2.2.0.min.js'>
+    </script>
+    <script src=
+'https://cdn.rawgit.com/admsev/jquery-play-sound/master/jquery.playSound.js'>
+    </script>
+  <link rel ="stylesheet" href = "Eyevy.css">
+</head>
+	<body id="EyevyBackground">
+        <span><h1>Eyevy
+        <button id ="menuBttn" type="button" class="btn btn-info" onclick ="window.location.href='EyevyHelpMenuPage.html'"></button>
+      </h1>
+      </span>
+  <div id = "p1" class = "parabox conatainer">
+      <p>
+It is a wonderful day at the Hummingstone corporation, and you are quite surprised that you haven’t snapped and killed everyone working there yet.
+   Today you have been assigned to a new specimen, the Eyevy. You know it came from Spain, but you do not know which country you are in or came from. All you know is that you are at a facility of Hummingstone which you work for.
+</p>
+  <div class = "imagebox hall"></div>
+  <div class = "container optionsBox">
+    <table class="tg">
+    <tbody>
+      <tr>
+        <td class="tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav'); changeparagraph(p1, p1_5)"></button> What's on Today's Agenda?</td>
+    </tbody>
+    </table>
+  </div>
+  </div>
+
+
+
+  <div id = "p1_5" class = "parabox conatainer hidden">
+
+      <p>You walk down an unnaturally clean white hallway toward room 567-7883. Your clipboard tells you that that is the room you need to go, and you trust your clipboard more than yourself. Your clipboard has always had you and it is the one thing that has never changed in your life. You open the plain brown oaken door by turning the knob until it falls off and walk in.
+  </p>
+  <div class = "imagebox eyehall"></div>
+  <div class = "parabox container optionsBox">
+    <table class="tg">
+    <tbody>
+      <tr>
+        <td class="tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav'); changeparagraph(p1_5, p2)"></button> Head towards Eyevy</td>
+    </tbody>
+    </table>
+  </div>
+  </div>
+
+   <div id = "p2" class = "parabox conatainer hidden">
+
+    <p> You are now in the center of the room ready to get down to business.</p>
+
+<div id ="mainImageBox" class = "imagebox EyevyLabOverview"></div>
+<div class = "container optionsBox">
+  <table class="tg">
+  <tbody>
+    <tr>
+      <td class="tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav'); changeparagraph(p2, a1)"></button> Look at the Floor</td>
+      <td class="tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav'); changeparagraph(p2, a2)"></button> Look at the Ceiling</td>
+      <td class="tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav'); changeparagraph(p2, a3)"></button> Look at the Southern Wall</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td class="tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav'); fourscore(p2, state.a4Seen == false, a4_0, state.a4Seen == true && state.tapegot == 0, a4_1, state.a4Seen == true && state.tapegot != 0 && state.tapeIn == false, a4_2, state.tapeIn == true, a4_3);"></button> Look at the Northern Wall</td>
+      <td class="tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav'); changeparagraph(p2, a5)"></button> Look at the Eastern Wall</td>
+      <td class="tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav'); changeparagraph(p2, a6)"></button> Look at the Western Wall</td>
+    </tr>
+  </tbody>
+  </table>
+</div>
+</div>
+
+
+
+<div id = "a1" class = "parabox conatainer hidden">
+  <p>The floor is mostly concrete, hard gray concrete. There is also a drain close to your feet embedded into the gray of it all.</p>
+<div class = "imagebox theHole"></div>
+<div class = "container optionsBox">
+  <table class ="tg">
+    <tbody>
+      <tr>
+         <td class = "tg-5408"><button type ="button"  class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a1, p2, 6)"></button> Go Back </td>
+         <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav'); changeparagraph(a1, a1_b1)"></button> Look at Drain</td>
+      </tr>
+    </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a1_b1" class = "parabox conatainer hidden">
+  <p> The drain doesn't have a grate or anything. It is just a hole, perfectly round, appears to be a white pipe that goes down into who knows where, slightly larger than your wrist with rust stains around its rim. It does not call to you or make you want to run; it is just waiting for excess water from watering plants to run into its pitch-black maw. You cannot see where it leads.</p>
+  <div class = "imagebox theHole"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a1_b1, p2)"></button> Go Back </td>
+        <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav'); changeparagraph(a1_b1, a1_b1_c1)"></button> Inspect Drain</td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a1_b1_c1" class = "parabox conatainer hidden">
+  <p> You find the nicest spot on the floor possible to place your clipboard on and set it down. With both of your hands now free, you plunge your dominant one into the drain. You are confused. The texture isn't smooth and cool like you thought it would be. It feels like cotton and finely crushed glass and it smells like something is burning.</p>
+  <div class = "imagebox theHole"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "startSound('badEndSong'); changeparagraph(a1_b1_c1, a1_b1_c1_pt2)"></button> ... </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a1_b1_c1_pt2" class = "parabox conatainer hidden">
+  <div class = "imagebox theHole"></div>
+  <p>
+  "How long has it been?" you ask yourself in a moment of clarity. Your hand has been in the drain for a while now. You don't think you've had a single coherent thought since then. Everything feels so soft and warm that you don't want to move, and the grinding sound lulls you into a dream like state.
+  You are pulled in.
+  </p>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "stopSound('badEndSong'); reset(a1_b1_c1_pt2)"></button> Ending Gotten: What Already?    Click To Play Again </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a2" class = "parabox conatainer hidden">
+  <p>Oh no this was a bad idea. The incredibly bright white lights scorch your eyes as though they have a personal grudge against your retinas. You look away and blink dumbly as though it will heal your eyes. After you recover somewhat you look elsewhere around the room.</p>
+  <div class = "imagebox white"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a2, p2)"></button> Go Back </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a3" class = "parabox conatainer hidden">
+  <p>You immediately turn around as though you can just leave through the door. You see the door you came through, nested neatly in the tan walls of the room.  To the left of the door is a large desk with a television.</p>
+  <div id = "southWallImageBox" class = "imagebox southWall"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+         <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a3, p2)"></button> Go Back </td>
+         <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav'); tvRoutes()"></button> Inspect Desk</td>
+      </tr>
+      <tr>
+        <td class="tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav');changeparagraph(a3, a5)"></button> Look at the Eastern Wall</td>
+        <td class="tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav');changeparagraph(a3, a6)"></button> Look at the Western Wall</td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a5_b1_pt1" class = "parabox conatainer hidden">
+  <p>Oh wow, oh gosh this looks cool. This bad boy looks like it was purchased on that weird website you love that sells furniture for escape rooms. You could see this as being the captain’s control panel on a poorly animated Saturday morning space cartoon with intricate lore and oh my god it's a light switch it’s a stupid light switch it's literally a giant stupid light switch. You realize with tired unsurprised disappointment that the giant control panel changes the lighting for botany and/or gardening reasons to see if the light has something to do with how the Eyevy grows.
+   </p>
+   <div class = "imagebox EyevyLightingBox"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+  <tr>
+  <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav');splitParagraph(a5_b1_pt1, state.a4Seen == false, state.a4Seen == true, a5_b1_pt2, a5_b1_5)"></button> Look at Screen </td>
+  <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = " $.playSound('vaultFart.wav'); changeparagraph(a5_b1_pt1, p2)"></button> Go Back </td>
+  </tr>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a5_b1_pt2" class = "parabox conatainer hidden">
+  <p>The center green screen shows three options for lighting and to the right of the screen are three comically large buttons in red, blue, and yellow. Each button has a label next to it to show what lighting pressing them will result in. The red button switches the room to Fluorescent lighting, which is what you're fairly sure the lighting in the room was when you first walked in. The blue button switches the room to black light, and the yellow button switches it to LED light. This will be useful in messing with the Eyevy. You should come back to this later.
+   </p>
+   <div class = "imagebox EyevyLightingBox"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+  <tr>
+  <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a5_b1_pt2, p2)"></button> Go Back </td>
+  </tr>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a5_b1_5" class = "parabox conatainer hidden">
+  <p>  The green center screen shows three options for lighting and to the right of the screen are three comically large buttons in red, blue, and yellow. Each button has a label next to it to show what lighting pressing them will result in. The red button switches the room to Fluorescent lighting, which is what you're fairly sure the lighting in the room was when you first walked in. The blue button switches the room to black light, and the yellow button switches it to LED light. After looking at the Eyevy you are now ready to set the lighting to ... whatever you would like to garden to.
+  </p>
+<div class = "imagebox EyevyLightingBox"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+         <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('buttonPressed.mp3'); changeparagraph(a5_b1_5, a5_b1_5_c1); lighter(0)"></button> Press Red Button for Fluorescent Lighting </td>
+         <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('buttonPressed.mp3'); changeparagraph(a5_b1_5, a5_b1_5_c2); lighter(1)"></button> Press Blue Button for Black Lighting </td>
+       </tr>
+       <tr>
+         <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('buttonPressed.mp3'); changeparagraph(a5_b1_5, a5_b1_5_c3); lighter(2)"></button> Press Yellow Button for LED Lighting </td>
+          <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a5_b1_5, p2)"></button> Go Back</td>
+      </tr>
+    </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a5_b1_5_c1" class = "parabox conatainer hidden">
+  <p> If there is anything Sci-fi has taught you, it's that pressing the red button is the right thing to do. You press the red button, setting the lighting to Fluorescents.
+   </p>
+   <div class = "imagebox EyevyLightingBoxF"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+  <tr>
+  <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a5_b1_5_c1, p2)"></button> Go Back</td>
+  </tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a5_b1_5_c2" class = "parabox conatainer hidden">
+  <p>You press the blue button and are delighted to find that there are no large blood stains in the room. You think that it's black lighting that’s used to look at crime scenes for bloodstains anyway. Here’s to hoping the floor stays bloodstain free.
+   </p>
+   <div class = "imagebox EyevyLightingBoxBlackLight"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+  <tr>
+  <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a5_b1_5_c2, p2)"></button> Go Back</td>
+  </tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a5_b1_5_c3" class = "parabox conatainer hidden">
+  <p> You do have a weakness for anagrams. You press the yellow button to switch to LED lights.
+   </p>
+   <div class = "imagebox EyevyLightingBoxLed"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+  <tr>
+  <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a5_b1_5_c3, p2)"></button> Go Back</td>
+  </tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a3_b2" class = "parabox conatainer hidden">
+  <p>This is it; this is how you discover anything and everything about the Eyevy.
+     You look at the old television and the desk it sits on. All you need to
+     know is on these tapes, should you go back, put the tape in one of the blooms and do some more gardening and replace whatever is on this with something new, or do you really want to put the tape in now and see what you see?</p>
+  <div class = "imagebox ETV"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+         <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); putTapeon(a3_b2)"></button> Put Tape On </td>
+         <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a3_b2, p2)"></button> Wimp Out</td>
+      </tr>
+    </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a3_b2_1" class = "parabox conatainer hidden">
+  <p> The television is large and ancient. There is no remote just a slot that looks like it takes VHS tapes and several buttons for basic commands; play, pause, fast forward, rewind, eject and power. On the desk is a single tape with scotch tape on it which has "Eyevy Original Seed" written on it. This is the tape originally found in an Eyevy bloom you realize after reading it on a sticky note. Speaking of the Eyevy out loud in an empty room, you haven't gotten a good look at it yet. You go back.</p>
+  <div class = "imagebox EyevyDesk"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+         <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); tapegetter(); changeparagraph(a3_b2_1, p2)"></button> Take Tape and Go Back</td>
+      </tr>
+    </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a3_b2_2" class = "parabox conatainer hidden">
+  <p>The television is large and ancient. Its slot looks like it takes VHS tapes and there are several buttons for basic commands; play, pause, fast forward, rewind, eject and power. On the desk is a single tape with scotch tape on it which has "Eyevy Original Seed" written on it.</p>
+  <div class = "imagebox EyevyDesk"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+         <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav');  changeparagraph(a3_b2_2, a3_b2_2_b)"></button> What does that mean</td>
+      </tr>
+    </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a3_b2_2_b" class = "parabox conatainer hidden">
+  <p> This is the tape originally found in an Eyevy bloom you realize. No matter, you think you can place the tape back in the Eyevy and experiment to see if the Eyevy's conditions affect what is on the tape. Best to go back and think about all your options.</p>
+  <div class = "imagebox EyevyDesk"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+         <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); tapegetter(); changeparagraph(a3_b2_2_b, p2)"></button> Take Tape and Go Back</td>
+      </tr>
+    </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a3_b2_3" class = "parabox conatainer hidden">
+  <p>As the original tape inside of the Eyevy, the original seed must be watched before anything else. After writing on your clipboard to request popcorn for later experiments, you suddenly get second thoughts. Do you want to watch the tape?</p>
+  <div class = "imagebox ETV"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+         <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); putTapeon(a3_b2_3)"></button> Put Tape On </td>
+         <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a3_b2_3, p2)"></button> Wimp Out</td>
+      </tr>
+    </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a4_0" class = "parabox conatainer hidden">
+  <p>There it is, the Eyevy. Thick wires burst from the soil it has been planted in and coil around and outward. It is actually rather beautiful with all the colorful wires. There are Italian style electric outlets also growing. Some wires end in what look like analog RCA plugs which had yellow plugs for visual and red and white plugs for audio. </p>
+  <div class = "imagebox theEyevy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav'); a4See(); changeparagraph(a4_0, a4_05)"></button> What Else? </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+<div id = "a4_05" class = "parabox conatainer hidden">
+
+  <p>The Eyevy has beautiful blooms of outdoor security cameras. The blooms seem to be unable to move but you still can’t shake the feeling that they follow you. Well you can’t really find out more about the Eyevy that Hummingstone doesn’t know just by looking at it. Time to do what you do best and poke at it with various things around the room and write what happens.</p>
+  <div class = "imagebox theEyevy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav');  changeparagraph(a4_05, p2)"></button> Go Back </td>
+      <td class="tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav'); changeparagraph(a4_05, a5)"></button>Look at the Eastern Wall</td>
+      <td class="tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav'); changeparagraph(a4_05, a6)"></button>Look at the Western Wall</td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+<div id = "a4_1" class = "parabox conatainer hidden">
+
+  <p>Welp, you aren’t getting any younger and the Eyevy sure isn’t going to start doing anything any differently without some help. Are you ready to start a gardening schedule under the current conditions, or do you want to go back and see what else you can screw with?</p>
+  <div class = "imagebox theEyevy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('dig1.mp3'); garden(a4_1, 1)"> </button> Get to Gardening</td>
+      <td class="tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a4_1, p2)"></button> Go Back</td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a4_2" class = "parabox conatainer hidden">
+  <p> You go back to the Eyevy. You have an idea of what to do. You have a tape that will fit into the cameras of the Eyevy if you want to put it in. After you put the tape in you can start tending to the Eyevy and see what happens, or even just start tending to it without the tape in. Maybe you just want to mess around the room some more.</p>
+  <div class = "imagebox theEyevy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('dig1.mp3'); garden(a4_2, 1)"></button> Garden without Tape</td>
+      </tr>
+      <tr>
+        <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('dig1.mp3'); seedPlanted(1); garden(a4_2, 2)"></button> Garden with Tape In</td>
+        <td class="tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a4_2, p2)"></button> Go Back</td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a4_3" class = "parabox conatainer hidden">
+  <p> Going back to the Eyevy again, you wonder if you are finally satisfied with the conditions you have set up. If you are, then will you gardening with the tape in or out?</p>
+  <div class = "imagebox theEyevy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('dig1.mp3'); garden(a4_3, 1)"></button> Garden without Tape In</td>
+        <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('dig1.mp3'); garden(a4_3, 2)"></button> Garden with Tape In</td>
+        <td class="tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a4_3, p2)"></button> Go Back</td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a4_4" class = "parabox conatainer hidden">
+  <p> After writing down which Eyevy bloom has the tape, you spend the next few weeks gardening. Then you take the tape out and head back to the desk.</p>
+  <div class = "imagebox theEyevy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('dig1.mp3');  changeparagraph(a4_4, a3)"></button> Take Tape</td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a5" class = "parabox conatainer hidden">
+  <p>The eastern wall is covered in gray paneling. To the right is a control panel that has the blinking buttons, and sliders of a Russian space station or a retro American Saturday cartoon villain device.</p>
+  <div class = "imagebox EyevyLightingBox" ></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav');splitParagraph(a5, state.a4Seen == false, state.a4Seen == true, a5_b1_pt1, a5_b1_5)"></button> Inspect Control Panel </td>
+      <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a5, p2)"></button> Go Back </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a6" class = "parabox conatainer hidden">
+  <p>To your left is a water faucet that comes out of the concreate floor and has a shiny red tap to contrast its rusty pipe. The faucet is connected to a long yellow hose and appears to be turned off.  The rest of the room along the western wall is covered in sorted bags of soil and hung in the middle of the wall is a large simple diagram hung on it.</p>
+  <div class = "imagebox westWall"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(a6, a6_b1)"></button> Inspect Watering Faucet </td>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); splitParagraph(a6, state.a4Seen == true, state.a4Seen == false, a6_b2, a6_b2_5)"></button> Inspect Soil Bags </td>
+    </tr>
+    <tr>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(a6, a6_b3)"></button> Inspect Diagram </td>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6, p2)"></button> Go Back </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a6_b1" class = "parabox conatainer hidden">
+  <p> The tap has been freshly painted a bright cherry red that makes you wish you had a toy wagon that color. It is so vivid and glossy that it really makes the pale gray with orange rust pipe it sits on look like the garbage that it is. </p>
+  <div class = "imagebox theHose"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(a6_b1, a6_b1_c1)"></button> Inspect Watering Hose </td>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b1, a6)"></button> Go Back </td>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b1, p2)"></button> Retreat </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a6_b1_c1" class = "parabox conatainer hidden">
+  <p>The hose itself is a yellow rubber tube. It is far too yellow for its own good, like a banana that should not exist. You look down the iron smelling nozzle and see that the inside is red rubber, the exact shade of the tap </p>
+  <div class = "imagebox theHose"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(a6_b1_c1, a6_b1_c1_d1)"></button> Drink Water </td>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(a6_b1_c1, a6_b1_c1_d2)"></button> Turn Water On and Inspect Hose </td>
+    </tr>
+    <tr>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b1_c1, a6_b1)"></button> Go Back </td>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b1_c1, p2)"></button> Retreat </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a6_b1_c1_d1" class = "parabox conatainer hidden">
+  <p> You grip the smooth tap and twist it clockwise. After a few moments white water trickles out and you sip some. You know now that you think about it you don't think you really had a concrete reason to think that water will come out of the hose. For all you know that liquid could have been fancy plant water laced with chemicals and fertilizer. </p>
+  <div class = "imagebox theHose"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); changeparagraph(a6_b1_c1_d1, a6_b1_c1_d1_2)"></button> Go Back </td>
+      </tr>
+      </tbody>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a6_b1_c1_d1_2" class = "parabox conatainer hidden">
+  <p> How have you survived this long at Keystone? Maybe you're a clone with your original memories and you've been the same strings with multiple puppets. Anyway, the liquid is definitely water. You turn the tap counterclockwise so as not to waste any. </p>
+  <div class = "imagebox theHose"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b1_c1_d1_2, a6_b1_c1)"></button> Go Back </td>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b1_c1_d1_2, p2)"></button> Retreat </td>
+      </tr>
+      </tbody>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a6_b1_c1_d2" class = "parabox conatainer hidden">
+  <p>You grab the tap and twist it as far clockwise as it will go. You go back to inspecting the hose. Looking down the nozzle and HHHRrggggERRRRgggGrruburbgbbrb. Why did you do that? Why did you do that?  What did you think would happen? Why did you set it to full blast? Anyway, there is water in the hose. You turn it off. </p>
+  <div class = "imagebox theHose"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b1_c1_d2, a6_b1_c1)"></button> Go Back </td>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b1_c1_d2, p2)"></button> Retreat </td>
+      </tr>
+      </tbody>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a6_b2" class = "parabox conatainer hidden">
+  <p>Well time to lift up the overall straps you don't have and get dirty. What type of soil shall you garden with?</p>
+  <div class = "imagebox soilOptions"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('dig2.mp3'); changeparagraph(a6_b2, a6_b2_c1); shovel(0)"></button> Sandy </td>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('dig2.mp3'); changeparagraph(a6_b2, a6_b2_c2); shovel(1)"></button> Silty </td>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('dig2.mp3'); changeparagraph(a6_b2, a6_b2_c3); shovel(2)"></button> Clay </td>
+      </tr>
+      <tr>
+      <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('dig2.mp3'); changeparagraph(a6_b2, a6_b2_c4); shovel(3)"></button> Loamy </td>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('dig2.mp3'); changeparagraph(a6_b2, a6_b2_c5); shovel(4)"></button> Peaty </td>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('dig2.mp3'); changeparagraph(a6_b2, a6_b2_c6); shovel(5)"></button> Chalky </td>
+      </tr>
+      <tr>
+      <td class = "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b2, a6) "></button> Go Back </td>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b2, p2)"></button> Retreat </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a6_b2_c1" class = "parabox conatainer hidden">
+  <p> You know you can’t go wrong with the classics, so you go with Sandy soil, the original soil that the Eyevy was found in.</p>
+  <div class = "imagebox sandy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b2_c1, p2)"></button> Go Back </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a6_b2_c2" class = "parabox conatainer hidden">
+  <p>Only the best soil for the best results! You choose Silty soil for nutrition.</p>
+  <div class = "imagebox silty"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b2_c2, p2)"></button> Go Back </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a6_b2_c3" class = "parabox conatainer hidden">
+  <p>You draw up a gardening schedule revolving around Clay soil.</p>
+  <div class = "imagebox clay"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b2_c3, p2)"></button> Go Back </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a6_b2_c4" class = "parabox conatainer hidden">
+  <p>It says right on the diagram that Loamy soil is usually the best, so of course you're going to use it. You use Loamy soil.</p>
+  <div class = "imagebox loamy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b2_c4, p2)"></button> Go Back </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a6_b2_c5" class = "parabox conatainer hidden">
+  <p>Peaty soil seems like it would be interesting. Peaty soil it is then.</p>
+  <div class = "imagebox peaty"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b2_c5, p2)"></button> Go Back </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a6_b2_c6" class = "parabox conatainer hidden">
+  <p>The Eyevy is a weird mix of technology and nature so you are curious if something interesting will happen if that nature part isn’t fed well. You choose Chalky soil.</p>
+  <div class = "imagebox chalky"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b2_c6, p2)"></button> Go Back </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a6_b2_5" class = "parabox conatainer hidden">
+  <p> Wow! Dirt! But not just any dirt along side of the road. Dirt! In bags! The bags are all white with colored squares on them that contain one word printed on it usually printed in white. This word is not the same for all bags. Roughly one sixth of them have 'Sandy' printed on, another sixth have 'Silty', one sixth have 'Clay', one sixth have 'Loamy', one sixth of the bags have 'Peaty' , and the final sixth have 'Chalky' printed on them.</p>
+  <div class = "imagebox soilOptions"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b2_5, p2)"></button> Go Back </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a6_b3" class = "parabox conatainer hidden">
+  <p>The diagram is insultingly and delightfully simple and covered in bright colors. The pinks and oranges tell you about the six main types of soil. Sandy soil is the type of the soil the Eyevy was found in and is mainly tiny rocks that have little nutrients and don't retain water. Silty soil is the most nutritious, and fertile and it holds water well. Clay soil is hard to work with, compacts when wet, and doesn't retain water well. </p>
+  <div class = "imagebox soilInfo"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vault.wav'); changeparagraph(a6_b3, a6_b3_5)"></button> Tell Me More About The Dirt </td>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "a6_b3_5" class = "parabox conatainer hidden">
+  <p>Loamy soil is most often the best for the plant for balancing water absorbency and nutrition and is 25-40% sand, 30-50% silt, and 10-30% clay. Peaty soil has more organic  materials, high ph composition, and retains water more than nutrients. The last soil type is Chalky soil, which has low ph composition, dries out quickly and usually kills plants because of low nutrition.</p>
+  <div class = "imagebox loamy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b3_5, a6)"></button> Go Back </td>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(a6_b3_5, p2)"></button> Retreat </td>
+      </tbody>
+</table>
+</div>
+</div>
+
+<!-- This is where all the endings/Tapes are -->
+
+<div id = "og_Eyevy_0" class = "parabox conatainer hidden">
+  <p>You place the tape into the television and press the play button and settle in for what you assume to be a good show. The first thing on screen is a garden. </p>
+  <div class = "imagebox juansGarden"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); changeparagraph(og_Eyevy_0, og_Eyevy_1)"></button> Look More </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "og_Eyevy_1" class = "parabox conatainer hidden">
+  <p>The garden is beautiful and enclosed by a well-built wooden plank fence with purple wisteria flowers covering it.  The flower beds are all filled with either anemone flowers, tulips, or a combination of the two. In the center of the garden is a small in-ground pond with a few water lilies. There are various garden gnomes scattered throughout the garden.</p>
+  <div class = "imagebox juansGarden"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); changeparagraph(og_Eyevy_1, og_Eyevy_2)"></button> Look more </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "og_Eyevy_2" class = "parabox conatainer hidden">
+  <p>A man with light brown skin walks out in overalls and begins tending to the plants. This is Juan and he is very boring. After fifteen minutes to boring for the game to describe, you begin to fast forward the tape to see if anything anomalous happens.</p>
+  <div class = "imagebox jjgarden"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); changeparagraph(og_Eyevy_2, og_Eyevy_3)"></button> Fast Forward </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "og_Eyevy_3" class = "parabox conatainer hidden">
+  <p>The total time of the video is 37 hours in which, a lot of nothing happens. Around the 14 hour and 30 min mark, you realize something, Juan turns his back towards the camera and begins to talk to his gnomes multiple times a day. You rewind and note that it seems to be multiple gnomes and not just one. </p>
+  <div class = "imagebox jgtalk"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); changeparagraph(og_Eyevy_3, og_Eyevy_4)"></button> Keep Watching </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "og_Eyevy_4" class = "parabox conatainer hidden">
+  <p>He doesn’t just talk with them either, he seems to almost have snippets of conversations with them. Man, you wish this had audio. Maybe the only reason this tape exists is because it was in a bud so small that Juan couldn’t see it hidden in the flowers and it didn’t have time to grow audio wires. You are thrilled to be working at a place where they investigate anomalies, and the logic of a kindergartener is often correct. That is the logic you are best at. </p>
+  <div class = "imagebox jgtalk"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); changeparagraph(og_Eyevy_4, og_Eyevy_5)"></button> Keep Watching </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "og_Eyevy_5" class = "parabox conatainer hidden">
+  <p>You watch the rest of the video, noting any gnome conversations. Near the very end Juan’s back faces the camera and he is curled inward, and he keeps darting his eyes and head around. He is talking to a gnome when suddenly he stands upright rigid. He turns around with wide eyes towards the camera. The gnome he was previously talking to explodes. Maybe explodes isn’t the right word there is no fire or boom, just clay bits in all different directions and a shatter.</p>
+  <div class = "imagebox gboom"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); changeparagraph(og_Eyevy_5, og_Eyevy_6)"></button> Keep Watching </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "og_Eyevy_6" class = "parabox conatainer hidden">
+  <p>Juan doesn’t turn back and just keeps his eye on the camera. After five minutes of staring at the camera Juan suddenly bolts and leaves the camera frame. Nothing happens in the rest of the video and then the police show up. The police inspect the Eyevy for a bit and then run away. The ‘Weed Walkers’ division show up and follow all normal containment procedures.</p>
+  <div class = "imagebox juanlook"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); changeparagraph(og_Eyevy_6, hardPause)"></button> Keep Watching </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "neonSand" class = "parabox conatainer hidden">
+  <p>You place the tape in to the television and press the play button. This shows a desert of peculiar sand. The sand is not yellow, but different neon colors in dunes or scattered about. Your head starts to hurt. </p>
+  <div class = "imagebox neoTv"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); changeparagraph(neonSand, neo1)"></button> Keep Watching </td>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(neonSand, hardPause)"></button> Stop Watching </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "juansGarden" class = "parabox conatainer hidden">
+  <p> When You put the tape in and press play, the first thing on screen is a garden. </p>
+  <div class = "imagebox juansGarden"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); changeparagraph(juansGarden, juansGarden_1) "></button> ... </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "juansGarden_1" class = "parabox conatainer hidden">
+  <p>The garden is enclosed by a well-built wooden plank fence with what looks to be no gaps between the planks, but it is hard to be sure when purple wisteria cover it so thoroughly.  The flower beds are all filled with either anemone flowers, tulips, or a combination of the two. In the center of the garden is a small in-ground pond with a few water lilies.  </p>
+  <div class = "imagebox juansGarden"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); changeparagraph(juansGarden_1, juansGarden_2) "></button> ... </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "juansGarden_2" class = "parabox conatainer hidden">
+  <p> There are various garden gnomes scattered throughout the garden. A man with light brown skin walks out in overalls and begins tending to the plants. This is Juan and he is very boring. After fifteen minutes to boring for the game to describe, you begin to fast forward the tape to see if anything anomalous happens.</p>
+  <div class = "imagebox jjgarden"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); changeparagraph(juansGarden_2, juansGarden_3) "></button> ... </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "juansGarden_3" class = "parabox conatainer hidden">
+  <p> Absolutely nothing anomalous or weird happens. This literally has less than what was originally on the tape. Time to try something different. </p>
+  <div class = "imagebox jjgarden"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(juansGarden_3, hardPause) "></button> Go Back </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "nutrients" class = "parabox conatainer hidden">
+  <p>Instead of a video, an image is displayed on the screen. It looks like two black and white nutrition labels, like the kind you see on food, and appears to display the nutrition facts of the Eyevy’s blooms and wires, respectively. You would write the facts on your clipboard, but they’re just the average nutrition values of your everyday security camera and electrical wires. Besides even if you forgot it’s not like it’s super hard to look up.</p>
+  <div class = "imagebox nutrition"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); changeparagraph(nutrients, hardPause) "></button> Stop Watching</td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "eyes" class = "parabox conatainer hidden">
+  <p>The tape is not a video. It is a picture of two eyeballs against a dark Peacock green background, with the black and white of the eye inverted. You stare at it for far too long.</p>
+  <div class = "imagebox I"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "changeparagraph(eyes, eyes2); $.playSound('blip.wav')"></button> Stop Staring </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "eyes2" class = "parabox conatainer hidden">
+  <p>You turn the screen off and decide to look around, or maybe you decide to reset the lighting and soil, it doesn’t matter. You begin to feel uncomfortable after some time.</p>
+  <div class = "imagebox EyevyLabOverview"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "changeparagraph(eyes2, eyes3);$.playSound('vault.wav')"></button> Why? </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "eyes3" class = "parabox conatainer hidden">
+  <p>There is no one else in the room but you swear someone is watching you. The feeling persists as you go home. It persists as you try to sleep. It persists as sit in a room by yourself. It persists during your sanity session with Dolores.   </p>
+  <div class = "imagebox Dolores"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "changeparagraph(eyes3, eyes4);$.playSound('vault.wav') "></button> Who is There? </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "eyes4" class = "parabox conatainer hidden">
+  <p>The eyes, tHE EYES, they follow you and you want to be alone so badly. The only slight reprieve you get is when you are tending the Eyevy itself, or it used to be. Now, even gardening cannot help you escape the nonexistent eyes that constantly bore into you.</p>
+  <div class = "imagebox theEyevy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "changeparagraph(eyes4, eyes5);$.playSound('vault.wav') "></button> ... </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "eyes5" class = "parabox conatainer hidden">
+  <p>You hold a spade shakily and focus on the sensation of the dirt pressing against your jeans, pressing against your knees. Hunched over boring your eyes into the dirt, and so afraid to turn around and see nothing your eyes turn toward the spade. </p>
+  <div class = "imagebox theEyevy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "changeparagraph(eyes5, eyes6); startSound('badEndSong')"></button> Stop It </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "eyes6" class = "parabox conatainer hidden">
+  <p>It is an easy decision. You drive the spade as hard as you can into your eye socket, hoping to reach your brain and end it quickly. You succeed.  </p>
+  <div class = "imagebox theEyevyBlood"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "restart(eyes6); stopSound('badEndSong')"></button> Ending Gotten: Who Are You Looking at?   Click To Play Again </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "hardPause" class = "parabox conatainer hidden">
+  <p>You shake your head. What was that? Whatever it was you're done watching it. You take the tape out and head back over to the Eyevy.  </p>
+  <div class = "imagebox theEyevy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); changeparagraph(hardPause, a4_2)"></button> Get Back to Business </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "neo1" class = "parabox conatainer hidden">
+  <p>It's just a picture, not even an interesting one yet your head is really starting to hurt. Slowly it ebbs away and you start to relax. You are so tired. You fall asleep. <br> </br> You wake up somewhere colorful and desolate. The world is bright, but you see no light source. There is no sun just a pink sky. </p>
+  <div class = "imagebox neonEon"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('blip.wav'); changeparagraph(neo1, neo2)"></button> . . . </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "neo2" class = "parabox conatainer hidden">
+  <p> The sand is so bright under your shoes that you have to squint at it. <br></br> How long has it been? You don't know but you'll give it a few more hours.<br> </br> After a few years in the desert, you come across a rock. </p>
+  <div class = "imagebox neonRock"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "startSound('badEndSong'); changeparagraph(neo2, neolife)"></button> Die from Dehydration </td>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "startSound('badEndSong'); changeparagraph(neo2, neodeath)"></button> Kill Self with Rock </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "neodeath" class = "parabox conatainer hidden">
+  <p>You are no fool and you know which is the better option. You bash your head on the rock. <br> </br> Again <br></br> Again <br></br> Until you cannot anymore.</p>
+  <div class = "imagebox bloodyNeonRock"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "stopSound('badEndSong');restart(neodeath)"></button> Ending Gotten: Quick and Easy.   Click to Play Again </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "neolife" class = "parabox conatainer hidden">
+  <p>  You can't give up hope. Maybe one of these days you'll find water. <br><br> You never do.</p>
+  <div class = "imagebox neonEon"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "stopSound('badEndSong'); restart(neolife)"></button> Ending Gotten: Static Wanderer.   Click to Play Again </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+<!-- endings that dont involve putting the tape in and just involve gardening -->
+
+
+
+<div id = "iv" class = "parabox conatainer hidden">
+  <p>  You tend to the Eyevy diligently for weeks, months, years—well a year, and the Eyevy slowly envelopes the room. Wire vines cover the walls and yet none of the blooms ever grow a new seed and sprout a new tape inside of them.</p>
+  <div class = "imagebox theEyevy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('vaultFart.wav'); changeparagraph(iv, p2)"></button> Go Back And Make New Schedule </td>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('dig2.mp3'); changeparagraph(iv, iv2)"></button> Keep It Up </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "iv2" class = "parabox conatainer hidden">
+  <p>You must tend to the Eyevy. Your superiors are busy and take some time to notice that you aren’t really doing anything with the Eyevy. When they do, they send Dolores in to check on you. She has no eyeballs in her sockets, yellow lipstick, black hair in curls, a pan suit, and a sunny disposition. </p>
+  <div class = "imagebox Dolores"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(iv2, iv3)"></button> Hello Dolores </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "iv3" class = "parabox conatainer hidden">
+  <p>“Hello,” she says in a thick accent from Nowhere, “I am here to see if everything is alright or if the Eyevy has had some hypnotic or psychic effect on you encouraging you to only take care of it instead of experimenting with it.” She pulls out a large pad full of paper that immediately grabs a hold of your very mind and has the hairs of each of your five senses standing on end. It appears to be normal paper. </p>
+  <div class = "imagebox Dolores"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(iv3, iv4)"></button> . . . </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "iv4" class = "parabox conatainer hidden">
+  <p>“Now I want you to answer me honestly,” she holds up the pad and you see a blank piece of paper “what do you see?” </p>
+  <div class = "imagebox DoloresPad"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "startSound('badEndSong'); changeparagraph(iv4, iv_b1)"></button> Where Are Your Eyes? </td>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(iv4, iv_b2)"></button> I See Nothing. </td>
+      </tr>
+      <tr>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "startSound('goodEndSong'); changeparagraph(iv4, iv_b3)"></button> The Eyevy </td>
+      <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "startSound('badEndSong'); changeparagraph(iv4, iv_b4)"></button> A Beautiful Woman </td></tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "iv_b1" class = "parabox conatainer hidden">
+  <p>Dolores looks at you with a blank face and puts away the note pad. She flips the pad page showing some ink blots and asks you to look at the shapes. When she leaves after a few hours of prodding at your brain you go back to tending to the Eyevy. The next day you are visited by Rodriguez the floating cube who works with people who have suffered intense psychic and mental damages when working with entities. He is here on business. You are taken off Eyevy duty.</p>
+  <div class = "imagebox cube"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "stopSound('badEndSong'); reset(iv_b1)"></button> Ending Gotten: Rubik's Sanity.  Click to Play Again </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "iv_b2" class = "parabox conatainer hidden">
+  <p>Dolores’ smile turns into a small line and her eyes widen slightly. Just as soon as it changed, her face returns to the pleasant expression she has worn every time you have seen her since you met her seven years ago when she helped you get over the mental effects of the Johnson paradox you studied. The rest of the session goes normally with Dolores asking the usual questions and you giving mostly the usual answers you always do.</p>
+<div class = "imagebox DoloresPad"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "startSound('badEndSong'); changeparagraph(iv_b2, iv_b2_2)"></button> End Session </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "iv_b2_2" class = "parabox conatainer hidden">
+  <p>As she packs up, she pauses briefly. “Are you sure you didn’t see anything on that paper?” she asks. “Yes,” you answer, questioning in your tone if that is a good or bad thing, what consequences that might have, and why Dolores is acting like this. Her face does not return to her usual expression this time, she just leaves. You don’t go back to gardening. Two weeks pass and you hear nothing, but Blitz comes in to give you a measles shot early. You don’t wake up.</p>
+  <div class = "imagebox oneshot"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "stopSound('badEndSong'); reset(iv_b2_2)"></button> Ending Gotten: Needle Bliss.  Click to Play Again </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "iv_b3" class = "parabox conatainer hidden">
+  <p> Dolores nods and flips the page. Your answers to most of the other questions are Eyevy or related to gardening. One week later after the session you are reassigned to the Russian Lílium Egg, another anomalous object that is known to be completely safe if the garden that it is in and the garden within it are well maintained and loved. You are quite fine with this. </p>
+  <div class = "imagebox greenEnding"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "stopSound('goodEndSong'); reset(iv_b3)"></button> Ending Gotten: Lílium Life.  Click to Play Again </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "iv_b4" class = "parabox conatainer hidden">
+  <p>She blushes an olive-green color. “Why aren’t you a charmer,” Dolores giggles out. You sure hope you are; you’ve wanted to flirt with Dolores ever since you met her. Sadly, when you met her you had recently been vomited out of a large crystal bovine creature that you could see through while being ingested so you weren’t mentally capable of making a good impression back then.</p>
+  <div class = "imagebox Dolores"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "stopSound('goodEndSong'); reset(iv_b4)"></button> Ending Gotten: No Eyed Girl.  Click to Play Again </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "iv_b4_2" class = "parabox conatainer hidden">
+  <p>The session goes down hill from there and your following attempts at flirting are so bad that when questioned about how the session went Dolores just says “Huh? Oh, oh yeah, they’re fine. They’re fine.” You stick to gardening the Eyevy, alone, for the rest of your life.</p>
+  <div class = "imagebox heartbreak"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "stopSound('goodEndSong'); reset(iv_b4)"></button> Ending Gotten: No Eyed Girl.  Click to Play Again </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "nightVision" class = "parabox conatainer hidden">
+  <p> You don’t want to change too much, just seeing if different lighting changes anything is a good start. You get to work tending the Eyevy and weeks pass.</p>
+  <div class = "imagebox theEyevy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(nightVision, nightVision_2)"></button> Weeks Later </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "nightVision_2" class = "parabox conatainer hidden">
+  <p> “You are more of a disappointment then the fourth Jonas brother,” you tell the Eyevy. Talking to plants helps them grow, so telling the Eyevy how disappointing it is that nothing has happened in the six weeks you had been tending to it in blacklight is sure to make something happen, right? You slump back in the desk chair and go over the notes on your clipboard.</p>
+  <div class = "imagebox theEyevy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(nightVision_2, nightVision_3)"></button> Look at Clipboard </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "nightVision_3" class = "parabox conatainer hidden">
+  <p> Suddenly the lights go out and an alert plays in the voice of Kagoro Babiito, “Attention employees, an anomaly known as the Show no Tell has escaped its chamber. As it is only harmful when seen visually, we have turned the lights off for rooms that do not result in Finis Mundi, Multo Mortem, or Unum Occidere events at a lack of light. Please stay still until we get this situation under control and use any artificial light you can unless it is against regulations of the chamber you are in to do so, thank you.”</p>
+  <div class = "imagebox black"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(nightVision_3, nightVision_4)"></button> Who is Kagoro Babiito? </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "nightVision_4" class = "parabox conatainer hidden">
+  <p>You briefly remember when you got Babiito’s autograph last year at the Biblion festival. Babiito’s voice over the announcements had saved your life so many times before, it had been empowering to learn he was a human like you. You take out your phone and try to set it to flash light mode only to accidently take a picture instead before succeeding.</p>
+  <div class = "imagebox white"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "startSound('goodEndSong'); changeparagraph(nightVision_4, nightVision_5)"></button> Wait for Lights </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "nightVision_5" class = "parabox conatainer hidden">
+  <p> Several hours pass before the lights come on. When it does, you go to delete the photo you took and notice something. When you zoom in on the Eyevy blooms, you can see a small red dot indicating that there are infrared auxiliary lights in the Eyevy blooms. You go over your notes on your clipboard and look for any mention of night vision cameras. You are delighted to find no such mention of the Eyevy blooms having night vision and have learned that growing them in black light causes them to develop it.</p>
+  <div class = "imagebox theEyevy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "stopSound('goodEndSong');reset(nightVision_5)"></button> Ending Gotten: Auxiliary Eureka.  Click to Play Again </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "lens" class = "parabox conatainer hidden">
+  <p> You get to work tending the Eyevy and weeks pass. </p>
+  <div class = "imagebox theEyevy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(lens, lens2)"></button> Weeks Pass </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "lens2" class = "parabox conatainer hidden">
+  <p> Sometime between weeks 4 and 7 your eyes start itching regularly. Just to be safe, you schedule an appointment with Blitz, the local human expert to make sure it is nothing serious. You can peer into his translucent stomach and tell he has had garlic bread for lunch. You are jealous.</p>
+  <div class = "imagebox Blitz"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(lens2, lens3)"></button> Lucky </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "lens3" class = "parabox conatainer hidden">
+  <p>“Hello again,” he greets. “What are you working on lately?”
+“I’m working on the Eyevy,” You begin as you lay in the white reclining chair. “It’s brand new they don’t know what exactly it’ll do to me.” This makes Blitz pause.
+ </p>
+    <div class = "imagebox Blitz"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(lens3, lens4)"></button> And? </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "lens4" class = "parabox conatainer hidden">
+  <p> When he recovers, he slowly takes out what looks to be a common miniature flashlight out of his coat, but probably is not. His claws gently pull at your upper and lower eyelids while his other hand shines the flashlight into your pupil.</p>
+    <div class = "imagebox Blitz"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "startSound('goodEndSong'); changeparagraph(lens4, lens5)"></button> I Hate This Part </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "lens5" class = "parabox conatainer hidden">
+  <p>After looking for some time without moving his camera or his eyes, he brings a claw to your eye and scratches at it. The sound of nails against glass shatters into your skull and soul. You feel nothing. On the bright side, after a bunch of trial and error you learn how to zoom in and out and your eyeballs’ lens focal length is insane.</p>
+    <div class = "imagebox Blitz"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "stopSound('goodEndSong'); reset(lens5)"></button> Ending Gotten: IBall.  Click to Play Again </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "perfume" class = "parabox conatainer hidden">
+  <p> Weeks pass, Ebony and Rotor broke up so your whole drinking group has too, the fire child you are assigned to on top of the Eyevy keeps kicking you in the shins trying to see how fire proof your suit really is, you are beginning to have horrible acne on your back, and every time you walk into the Eyevy chamber you can tell something is different but can’t put your finger on it. </p>
+  <div class = "imagebox theEyevy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav');changeparagraph(perfume, perfume2)"></button> Put Finger On It </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "perfume2" class = "parabox conatainer hidden">
+  <p> It takes far too long for your liking, but you finally figure out what it is. The Eyevy is now emitting a subtle scent. Its not bad, you’d go on a date with someone who smelled like that. </p>
+  <div class = "imagebox theEyevy"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(perfume2, perfume3)"></button> Hubba Hubba </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "perfume3" class = "parabox conatainer hidden">
+  <p> After writing down your findings on your clipboard, you head to your doctor appointment with Blitz your doctor. “Have you been using a different soap?” he asks as you take your shirt off and show him your back. “No,” you tell him. </p>
+  <div class = "imagebox Blitz"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(perfume3, perfume4)"></button> What is He Doing? </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "perfume4" class = "parabox conatainer hidden">
+  <p> He leans over and raises his hand to your back. His claws brush against one of your pimples and pop it. A small puff of white smoke comes out and Blitz starts coughing. Blitz continues to cough and cough; he leaves the room coughing. </p>
+    <div class = "imagebox Blitz"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav');changeparagraph(perfume4, perfumeb1)"></button> Don't Follow Blitz </td>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav');changeparagraph(perfume4, perfumeb2)"></button> Follow Blitz </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "perfumeb1" class = "parabox conatainer hidden">
+  <p>You trust that Blitz is going to get help for whatever just happened. You couldn’t see very well. Besides, it’s best to make sure no one else is exposed; with this reasoning you close the door Blitz opened on the way out and sit down.</p>
+    <div class = "imagebox black"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "startSound('goodEndSong'); changeparagraph(perfumeb1, perfumeb1_2)"></button> No One Except You That Is </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "perfumeb1_2" class = "parabox conatainer hidden">
+  <p>It smells wonderful in here. You relax and cough some as several puffs of white smoke pops out behind you. You start to feel sleepy as the smell overwhelms the oxygen. You close your eyes for the last time.</p>
+  <div class = "imagebox black"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "stopSound('goodEndSong'); reset(perfumeb1_2)"></button> Ending Gotten: Miserable Martyr.  Click to Play Again </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "perfumeb2" class = "parabox conatainer hidden">
+  <p> You rush out following Blitz, trying to make sure your friend is okay. Suddenly, the same scent that the Eyevy emits enters your nostrils before settling in your mouth. You can taste it and it is as sweet and overpowering as raw vanilla extract.</p>
+    <div class = "imagebox hall"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav');changeparagraph(perfumeb2, perfumeb2_2)"></button> Pinch Nose </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+
+
+
+<div id = "perfumeb2_2" class = "parabox conatainer hidden">
+  <p> A frightening numbing sensation spreads on your back. The sensation spreads to the rest of your body and you stop. Coughing comes from behind you as people exit rooms to look at the situation. The voice of Kagoro Babiito sounds throughout the facility, giving yet another lifesaving announcement to the employees of Hummingstone. </p>
+  <div class = "imagebox hall"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav'); changeparagraph(perfumeb2_2, perfumeb2_3)"></button> What Does He Say? </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+
+
+
+<div id = "perfumeb2_3" class = "parabox conatainer hidden">
+  <p>“Attention beloved Hummingstone employees,” begins Kagoro, “there is an unknown substance in Human minor infirmary EL118, please enter into an airtight room, seal all doors and wait for extraction team Lungless. After extraction team Lungless safely moves all employees, they will safely contain the source.</p>
+  <div class = "imagebox hall"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "$.playSound('plunk.wav');changeparagraph(perfumeb2_3, perfumeb2_4)"></button> Thank Goodness</td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div id = "perfumeb2_4" class = "parabox conatainer hidden">
+  <p>The sound of closing doors rings throughout the facility as everyone hides from you. With nothing else to do you sit and wait for the Lungless to come. After getting lost in your thoughts for some time and struggling to stay awake, your hand suddenly starts to feel wet. You look down and find it covered in blood.</p>
+<div class = "imagebox hall"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "startSound('badEndSong'); changeparagraph(perfumeb2_4, perfumeb2_5)"></button> That is Not Good </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+
+
+
+
+<div id = "perfumeb2_5" class = "parabox conatainer hidden">
+  <p>Is your back bleeding? Your hand touches the back that you almost forgot existed from how numb it is, only to feel that it is covered in blood. You try to stand up but stumble back in the chair. You are too weak to try to get help. There is no option but to wait for help. Help never comes.</p>
+  <div class = "imagebox hall"></div>
+<div class = "container optionsBox">
+  <table class = "tg">
+    <tbody>
+      <tr>
+        <td class =  "tg-5408"><button type ="button" class="btn btn-info choiceBttn" onclick = "stopSound('badEndSong'); reset(perfumeb2_5)"></button> Ending Gotten: Infectious Hazard.   Click to Play Again </td>
+      </tr>
+      </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+
+
+<script src="Eyevy.js"></script>
+<audio src="/eyevysound/blip.wav" id="blip"></audio>
+<audio src="/eyevysound/dig1.mp3" id="dig1"></audio>
+<audio src="/eyevysound/dig2.mp3" id="dig2"></audio>
+<audio src="/eyevysound/buttonPressed.mp3" id="buttonPressed"></audio>
+<audio src="/eyevysound/plunk.wav" id="plunk"></audio>
+<audio src="/eyevysound/vaultFart.wav" id="vaultFart"></audio>
+<audio src="/eyevysound/vault.wav" id="vault"></audio>
+<audio src="/eyevysound/vwhip.wav" id="vwhip"></audio>
+<audio src="/eyevysound/vwhosh.wav" id="vwhosh"></audio>
+<audio src="/eyevysound/Steamtech-Mayhem_Looping.mp3" id="goodEndSong"></audio>
+<audio src="/eyevysound/Trouble-on-Mercury_Looping.mp3" id="badEndSong"></audio>
+
+	</body>
+</html>

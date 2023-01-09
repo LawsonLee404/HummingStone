@@ -1,0 +1,576 @@
+#EyevyBackground{
+	background-image:url("EyevyBackground.png");
+	width: 100%;
+	height: 100%;
+	align-content: center;
+	margin: 0 auto;
+	align-items: center;
+	align-self: center;
+	background-color: transparent;
+}
+
+
+
+#menuBackground{
+	background-image: url("greenTile.png");
+	align-content: center;
+	margin-right: auto;
+	margin-left:auto;
+	align-self: center;
+	align-items: center;
+}
+
+h1{
+	align-items:center;
+	align-content: center;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	align-self: center;
+	text-align: center;
+	margin: auto;
+	padding: 5px;
+}
+
+
+
+
+#homepage{
+	background-image:url("greentech.jpg");
+	margin-right: auto;
+	margin-left:auto;
+	width: 100%;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+}
+
+
+.parabox{
+      width: 1200px;
+			height: 600px;
+      font-family: 'Crimson Text', serif;
+      font-size: 30px;
+			align-content:center;
+			align-items: center;
+			align-self: center;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 10px;
+			margin-bottom: 10px;
+	    color: white;
+}
+
+.parabox p{
+	width: 1000px;
+	max-height: 400px;
+	min-height: 50px;
+	color: white;
+	background-image: url("computer_background.jpg");
+	border-style: inset;
+	border-color: rgb(186,191,191), rgb(0.80,0.83,0.82), rgb(0.80,0.83,0.82), rgb(186,191,191);
+	align-self: center;
+	padding: 5px;
+	margin: auto;
+}
+
+
+.paragraph{
+	width: 1000px;
+	height: 200px;
+	color: white;
+	background-image: url("computer_background.jpg");
+	border-style: inset;
+	border-color: rgb(186,191,191), rgb(0.80,0.83,0.82), rgb(0.80,0.83,0.82), rgb(186,191,191);
+	align-self: center;
+	padding: 10px;
+	margin:  auto;
+}
+
+
+
+.imagebox{
+	width: 500px;
+  height: 300px;
+	margin:auto;
+	border: 12px ridge #99AABB;
+	align-items: center;
+	align-content: center;
+}
+
+
+.EyevyLabOverview{
+	background-image: url("EyevyLabOverview.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.EyevyLightingBox{
+
+		background-image: url("EyevyEastWall.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.EyevyLightingBoxLed{
+
+		background-image: url("LMLed.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.EyevyLightingBoxBlackLight{
+
+		background-image: url("LMBlack.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.EyevyLightingBoxF{
+
+		background-image: url("LMF.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.theHole{
+
+		background-image: url("theHole.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.theHose{
+
+		background-image: url("tap.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.white{
+	background-color: white;
+}
+
+
+.black{
+	background-color: black;
+}
+
+
+.theEyevy{
+
+		background-image: url("EyevyNorthWall.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+
+.westWall{
+		background-image: url("EyevyWestWall.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.soilOptions{
+		background-image: url("soilOptions.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.peaty{
+		background-image: url("PeatySoil.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.sandy{
+		background-image: url("SandySoil.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.loamy{
+		background-image: url("LoamySoil.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.clay{
+		background-image: url("ClaySoil.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.silty{
+		background-image: url("SiltySoil.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.chalky{
+		background-image: url("ChalkySoil.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.soilInfo{
+		background-image: url("dirtDiagram.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.southWall{
+		background-image: url("EyevySouthWall.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.southWallTapeless{
+		background-image: url("EyevySouthWallTapeless.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+
+.EyevyDesk{
+		background-image: url("eyevyDesk.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.heartbreak{
+		background-image: url("bh.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+.EyevyDeskTapeless{
+		background-image: url("eyevyDeskTapeless.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+
+.EyevyLabOverviewTapeless{
+		background-image: url("EyevyLabOverviewTapeless.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.ETV{
+		background-image: url("EyevyTV.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+
+.juansGarden{
+	background-image: url("juansgardenintv.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.jjgarden{
+	background-image: url("juaninhisgarden.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.jgtalk{
+	background-image: url("juantalktognome.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.gboom{
+	background-image: url("juanfacecameragnomeexplode.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.juanlook{
+	background-image: url("juanfacescamera.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.theEyevyBlood{
+	background-image: url("bloodyEye.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.nutrition{
+	background-image: url("labelintv.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.I{
+	background-image: url("eyeofmadness.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.Dolores{
+	background-image: url("Dolores.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.DoloresPad{
+	background-image: url("psychpad.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.neoTV{
+	background-image: url("neondesertintv.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.neonEon{
+	background-image: url("neondesert.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+.neonRock{
+	background-image: url("neonrock.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bloodyNeonRock{
+	background-image: url("bloodrock.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.cube{
+	background-image: url("hovercube.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.oneshot{
+	background-image: url("needle.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.greenEnding{
+	background-image: url("gardenLife.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.Blitz{
+	background-image: url("blitz.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hall{
+	background-image: url("hallway.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.eyehall{
+	background-image: url("ihall.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.introduction{
+	width: 1000px;
+	height: 120px;
+	padding: 20px;
+	margin: 100px auto;
+	align-content: center;
+	align-items: center;
+	text-align:center;
+	color: white;
+	align-self: center;
+	border-style: inset;
+	border-color: rgb(186,191,191), rgb(0.80,0.83,0.82), rgb(0.80,0.83,0.82), rgb(186,191,191);
+	background-image: url("computer_background.jpg");
+	vertical-align: center;
+	border-width: thick;
+}
+
+.container{
+	height:  600px;
+	width : 1200px;
+	align-self: center;
+	/*padding: 10px auto;*/
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+
+
+.choiceBttn{
+	background-image:url("switchOff.png");
+	cursor: pointer;
+	border: none;
+	width: 50px;
+	height: 50px;
+	align-self: left;
+	margin-right: 10px;
+}
+
+.choiceBttn:hover{
+	background-image:url("switchOn.png");
+	cursor: pointer;
+	border: none;
+	width: 50px;
+	height: 50px;
+	align-self: left;
+	margin-right: 10px;
+}
+
+
+#menuBttn{
+	background-image:url("clipboard.png");
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	width: 50px;
+	height: 50px;
+}
+
+
+
+.optionsBox{
+	flex-wrap: wrap;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	align-self: center;
+	align-content: center;
+	padding: 10px;
+}
+
+.exit {
+	background-image:url("closeButton.png");
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	margin: 20px;
+	width: 50px;
+	height: 50px;
+	align-self: left;
+}
+
+#storyStart1{
+	height: 800px;
+	margin-left: 15%;
+	margin-right: 15%;
+	max-width: none;
+	align-self: center;
+	align-items: center;
+	align-content: center;
+}
+
+
+#TitleTitle{
+color: white;
+font-family: 'Amatic SC', cursive;
+font-size: 100px;
+text-align:center;
+margin-right: auto;
+margin-left:auto;
+align-items: center;
+align-content: center;
+align-self: center;
+font-weight: normal;
+text-transform: uppercase;
+line-height: 150px;
+border-style: inset;
+border-color: rgb(186,191,191), rgb(0.80,0.83,0.82), rgb(0.80,0.83,0.82), rgb(186,191,191);
+background-image: url("computer_background.jpg");
+border-width: thick;
+}
+
+.startButton{
+	background-image:url("unpressedStartbutton.png");
+	background-color: transparent;
+	cursor: pointer;
+	align-self:center;
+	border: none;
+	width: 50px;
+	height: 50px;
+}
+.startButton:hover{
+	background-image:url("startbuttonPressed.png");
+	background-color: transparent;
+	cursor: pointer;
+	align-self:center;
+	border: none;
+	width: 50px;
+	height: 50px;
+}
+.hidden{
+	display:none;
+}
+
+
+.tg  {
+	border-collapse:collapse;
+	border-color:#93a1a1;
+	border-spacing:0;
+  margin: 0 auto;
+}
+
+.tg td{
+	background-image:url("gun_metal.png");
+	border-color:#93a1a1;
+	color:white;
+	border-style:solid;
+	border-width:1px;
+	color:#657b83;
+  font-family: 'Amatic SC', cursive;
+	font-size:20px;
+	overflow:hidden;
+	padding:10px 5px;
+	word-break:normal;}
+
+
+
+.tg .tg-5408{
+	background-color:#efefef;
+	color:white;
+	text-align: right;
+	vertical-align:top;
